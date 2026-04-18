@@ -1,0 +1,43 @@
+# All markdown files
+*.md
+
+# Logs
+storage/logs/
+*.log
+
+# Cache
+bootstrap/cache/
+storage/framework/cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+
+# Database
+database/*.sqlite
+database/*.sqlite-journal
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Config secrets
+config/aws_resources.json
+learning/
