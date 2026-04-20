@@ -1,5 +1,6 @@
-# All markdown files
+# All markdown files except README and documentation
 *.md
+!README.md
 
 # Logs
 storage/logs/
